@@ -1,0 +1,104 @@
+body {
+    background:
+        url("./images/bgcontainer.jpg") repeat-y center,
+        url("./images/bg.jpg");
+    color: #555;
+    margin: 0 auto;
+    font-family: 'Georgia', serif;
+}
+
+#container {
+    width: 630px;
+    margin: 0 auto;
+}
+
+#header {
+    background: url("./images/bgcontent.gif") no-repeat;
+    color: #FFC;
+}
+
+.top-nav {
+    padding: 10px 0 60px;
+    text-align: center;
+}
+
+.top-nav a {
+    font-size: 23px;
+    color: #747957;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.top-nav a:hover {
+	color: #2d3211;
+}
+
+.header-line {
+    background-image: url("./images/header_line.gif");
+    height: 12px;
+}
+
+#banner {
+    background-image: url("./images/header.jpg");
+    height: 230px;
+    background-size: cover; 
+    background-position: center;
+}
+
+#banner h1 {
+    font-size: 40px;
+    margin: 0;
+    padding: 70px 80px 20px;
+}
+
+#banner p {
+    margin: 0;
+    padding: 20px 80px;
+}
+
+#content {
+    background: url("./images/bgcontent.gif") no-repeat;
+    padding: 40px 40px 10px;
+}
+
+.content-block .title {
+    font-size: 33px;
+    color: #445043;
+}
+
+.content-block .title::first-letter {
+    font-size: 60px;
+    float: left;
+    padding-top: 5px;
+}
+
+.content-block .date {
+	color: #555;
+    font-size: 15px;
+}
+
+.content-body p {
+    margin: 10px 0;
+}
+
+.content-body .clear-float {
+    margin-top: 35px;
+}
+
+.content-body img {
+    float: left;
+    border: 1px dashed #6C7151;
+    margin: 0 10px 10px;
+}
+
+.content-line {
+    background: url("./images/content_line.gif") no-repeat center;
+    height: 20px;
+    margin-top: 20px;
+}
+
+#footer {
+    text-align: center;
+    background: url("./images/bgfooter.gif") no-repeat;
+    height: 40px;
+}
