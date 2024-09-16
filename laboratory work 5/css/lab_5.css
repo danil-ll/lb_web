@@ -1,7 +1,7 @@
 body {
     background:
-        url("./images/bgcontainer.jpg") repeat-y center,
-        url("./images/bg.jpg");
+        url("../assets/images/bgcontainer.jpg") repeat-y center,
+        url("../assets/images/bg.jpg");
     color: #555;
     margin: 0 auto;
     font-family: 'Georgia', serif;
@@ -13,7 +13,7 @@ body {
 }
 
 #header {
-    background: url("./images/bgcontent.gif") no-repeat;
+    background: url("../assets/images/bgcontent.gif") no-repeat;
     color: #FFC;
 }
 
@@ -34,12 +34,12 @@ body {
 }
 
 .header-line {
-    background-image: url("./images/header_line.gif");
+    background-image: url("../assets/images/header_line.gif");
     height: 12px;
 }
 
 #banner {
-    background-image: url("./images/header.jpg");
+    background-image: url("../assets/images/header.jpg");
     height: 230px;
     background-size: cover; 
     background-position: center;
@@ -57,7 +57,7 @@ body {
 }
 
 #content {
-    background: url("./images/bgcontent.gif") no-repeat;
+    background: url("../assets/images/bgcontent.gif") no-repeat;
     padding: 40px 40px 10px;
 }
 
@@ -92,13 +92,13 @@ body {
 }
 
 .content-line {
-    background: url("./images/content_line.gif") no-repeat center;
+    background: url("../assets/images/content_line.gif") no-repeat center;
     height: 20px;
     margin-top: 20px;
 }
 
 #footer {
     text-align: center;
-    background: url("./images/bgfooter.gif") no-repeat;
+    background: url("../assets/images/bgfooter.gif") no-repeat;
     height: 40px;
 }
