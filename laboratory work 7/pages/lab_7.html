@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Chatbot</title>
+    <link rel="stylesheet" href="../css/lab_7.css">
+</head>
+<body>
+    <div class="chat-container">
+        <input type="checkbox" id="toggle-chat" hidden>
+        <label class="chat-toggle" for="toggle-chat">
+            <span class="open-chat">Chat</span>
+            <span class="close-chat">Close</span>
+        </label>
+        <div class="chat-box">
+            <header class="chat-header">
+                <h3>Chat Support</h3>
+            </header>
+            <div class="chat-content">
+                <div class="message received">
+                    <span class="bot-icon">Bot</span>
+                    <p>Hello! 😊 How can I assist you today?</p>
+                </div>
+                <div class="message sent">
+                    <p>Could you provide more info on your services?</p>
+                </div>
+            </div>
+            <div class="chat-input">
+                <textarea placeholder="Type your message here..."></textarea>
+                <button class="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
